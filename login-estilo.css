@@ -1,0 +1,87 @@
+
+
+
+.login-container{
+height: 20vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 1vh;
+background-color: aliceblue;
+
+}
+
+.login{
+    height: 20vh;
+    width: 25%;
+    background-color: #54D19E;
+    border-radius: 30px;
+    -webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+}
+
+.text-log-cont{
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color:antiquewhite
+}
+
+
+.imput-container{
+    height: 8vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+
+.input-login{
+margin-top: 15px;
+height: 4vh;
+width: 70%;
+border-radius: 12px;
+
+-webkit-box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75);
+}
+
+.cont-boton{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn-guardar{
+height: 4.5vh;
+width: 35%;
+margin-right: 20px;
+border-radius: 12px;
+background-color:#47D3A9 ;
+-webkit-box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75);
+}
+
+
+.btn-borrar{
+    height: 4.5vh;
+    width: 35%;
+    margin-right: 20px;
+    border-radius: 12px;
+    background-color:#F83737  ;
+    -webkit-box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75);
+}
+

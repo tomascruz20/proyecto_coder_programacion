@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="coder.css">
+<link rel="stylesheet" href="login-estilo.css">
+    <title>proyecto-coder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Oswald:wght@300;400;500&family=Rubik:wght@500&family=VT323&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+</head>
+<body>
+<div class="encabezado">
+    <h1 class="letras">​📈​calculadora de interes compuesto📊</h1>
+</div>
+
+<div class="sub-titulo-contenedor">
+
+    <h2 class="letras1" id="user-welcome">bienvenido usuario
+    </h2>
+
+</div>
+
+<section class="login-container">
+
+    <section class="login">
+        <div class="text-log-cont">
+            <h2>tu nombre de usuario</h2>
+        </div>
+    
+    
+    <div class="imput-container">
+        <input type="text" placeholder="nombre" id="user-name" class="input-login">
+
+    </div>
+    
+    <div class="cont-boton">
+        <input type="button" value="guardar" id="btn-guardar" class="btn-guardar"  >
+        <input type="button" value="eliminar-datos"  id="btn-eliminar-datos" class="btn-borrar"  >
+    </div>
+    
+    </section>
+    </section>
+
+
+
+
+
+
+
+<main class="medio">
+
+
+
+<section class="Cont-cont-form">
+
+
+
+
+
+<section class="cont-form">
+
+<div class="fila-form">
+
+
+ <div class="fila1-form">   
+<input class="input" type="text" name="montoDeIngreso" id="monto" placeholder="monto" >
+<input class="input" type="number" name="tasaDeInteres" id="interes" placeholder="interes">
+<input class="input"  type="text" name="tiempo" id="meses" placeholder="años">
+</div>
+
+
+<div class="fila2-form">
+<input class="input"  type="text" name="agregar" id="agregar" placeholder="agregado">
+<input class="input"  type="text" name="inflacion" id="inflacion" placeholder="inflacion">
+<input class="input"  type="text" name="nombre" id="nombre" placeholder="nombre">
+</div>
+
+
+</div>
+
+
+
+<div class="box-boton">
+<button  class="boton" id="btn-calc" >calc con inflacion</button>
+</div>
+
+</section>
+
+
+</section>
+
+
+<section class="Cont-part-derecho">
+
+
+<section class="cont-resultado-caja">
+<section class="resultado-caja">
+    <div  class="caja-resultado">
+<p  id="p"></p>
+    </div>
+</section>
+</section>
+
+
+<section class="contenedor-btn-tabla">
+<button class="btn-delete-tabla" id="boton-delete" >borrar tabla</button>
+</section>
+
+
+<section class="Cont-caja-historial">
+
+<table class="tabla">
+    <thead>
+<tr>
+    <th>nombre</th> <th>M.inicio</th> <th>M.final</th> <th>Interes</th> <th>inflacion</th> <th>agregado</th> <th>id</th>
+</tr>
+</thead>
+<tbody class="cont-historial" id="historial" >
+</tbody>
+</table>
+
+
+<!--
+ <div class="buscador-box">
+<input type="text" placeholder="buscar" id="buscador" class="buscador">
+<button  class="boton" onclick="search() " >buscar</button>
+</div> 
+-->
+</section>
+</section>
+</section>
+</main>
+
+
+
+
+<section id="cont_inferior" class="cont_inferior">
+
+<div class="cont-box-coments">
+    <button  class="boton" id="btn-comentarios" >cargar comentarios</button>
+<div class="cont_coments" id="comentarios">
+
+<h4>ingresa a nuestros comentarios</h4>
+
+</div>
+</div>
+
+<div class="cont-box-dolar">
+    <button  class="boton" id="btn-dolar" >cargar valor dolar</button>
+<div class="cont-dolar" id="cont_dolar">
+
+    <h4>ingresa a nuestros comentarios</h4>
+
+</div>
+</div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+<footer>
+<h4> te esperamos la proxima</h4>
+
+</footer>
+
+
+
+
+
+
+
+<script src="coder.js"></script>
+</body>
+</html>
